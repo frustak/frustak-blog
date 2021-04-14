@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block head %}
+<link rel="stylesheet" href="/index.css">
+{% endblock head %}
+
+{% block main %}
+<div class="post">
+    <h2 class="title">{{ page.title }}</h2>
+    <div class="info">
+        <span>{{ page.reading_time }} min read</span>
+        <span class="square"></span>
+        <span>{{ page.date }}</span>
+    </div>
+    <div class="content">{{ page.content | safe }}</div>
+</div>
+{% endblock main %}

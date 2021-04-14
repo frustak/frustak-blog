@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block head %}
+<link rel="stylesheet" href="/index.css">
+{% endblock head %}
+
+{% block main %}
+{% for page in section.pages %}
+<div class="post">
+    <a href="{{ page.permalink | safe }}">
+        <h2 class="title">{{ page.title }}</h2>
+    </a>
+    <div class="info">
+        <span>{{ page.reading_time }} min read</span>
+        <span class="square"></span>
+        <span>{{ page.date }}</span>
+    </div>
+    <div class="content">{{ page.summary | safe }}…</div>
+</div>
+{% endfor %}
+{% endblock main %}
