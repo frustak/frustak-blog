@@ -15,6 +15,7 @@ function handleTooltipCopy() {
     document.querySelectorAll(".copyable").forEach(tooltip => {
         tooltip.addEventListener("click", (event) => {
             const dataToCopy = event.target.getAttribute("data-text");
+            if (dataToCopy === "Copied!") return;
             // Workaround to copy a text from textarea
             const tempTextArea = document.createElement("textarea");
             tempTextArea.value = dataToCopy;
