@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://frustak.netlify.app/sitemap.xml

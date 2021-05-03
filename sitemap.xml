@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://frustak.netlify.app/</loc>
+    </url>
+    <url>
+        <loc>https://frustak.netlify.app/first/</loc>
+        <lastmod>2021-04-11</lastmod>
+    </url>
+    <url>
+        <loc>https://frustak.netlify.app/fourth/</loc>
+        <lastmod>2021-04-01</lastmod>
+    </url>
+    <url>
+        <loc>https://frustak.netlify.app/second/</loc>
+        <lastmod>2021-04-02</lastmod>
+    </url>
+    <url>
+        <loc>https://frustak.netlify.app/third/</loc>
+        <lastmod>2021-04-11</lastmod>
+    </url>
+</urlset>
