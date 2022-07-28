@@ -1,1 +1,1 @@
-https://frustak.netlify.app
+https://frustak.me/
