@@ -1,1 +1,1 @@
-https://frustak.me/
+https://frustak.me
